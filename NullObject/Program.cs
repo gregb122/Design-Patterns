@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NullObject.src;
+using System;
 
 namespace NullObject
 {
@@ -6,7 +7,8 @@ namespace NullObject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Client client = new Client();
+            client.LoggerTest();
         }
     }
 }
