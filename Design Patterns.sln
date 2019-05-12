@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject", "NullObject\Nu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{FC731F68-E623-42C5-B1D8-7EE6F408DFB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{8AE4D605-295C-4D3F-80EE-3F7AB65FDC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{8AE4D605-295C-4D3F-80EE-3F7AB65FDC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{DE0A5104-ED15-4C73-B630-0CB8A696DE71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8AE4D605-295C-4D3F-80EE-3F7AB65FDC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE4D605-295C-4D3F-80EE-3F7AB65FDC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE4D605-295C-4D3F-80EE-3F7AB65FDC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0A5104-ED15-4C73-B630-0CB8A696DE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0A5104-ED15-4C73-B630-0CB8A696DE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0A5104-ED15-4C73-B630-0CB8A696DE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0A5104-ED15-4C73-B630-0CB8A696DE71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
